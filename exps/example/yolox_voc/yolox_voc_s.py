@@ -9,7 +9,7 @@ class Exp(MyExp):
     def __init__(self):
         super(Exp, self).__init__()
         self.num_classes = 4
-        self.max_epoch= 40
+        self.max_epoch= 20
         self.depth = 0.33
         self.width = 0.50
         self.warmup_epochs = 1
